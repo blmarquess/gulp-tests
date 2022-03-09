@@ -12,7 +12,8 @@ npm i gulp shelljs gulp-watch
 ```
 Para utiliza:
 
-Atualize os arquivo 'gulpfile.js' com as credencias do banco de dados
+Atualize os arquivo 'gulpfile.js' com as credencias do banco de dados.
+E use o comando:
 
 ```console
 npx gulp
