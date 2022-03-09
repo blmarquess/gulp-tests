@@ -2,16 +2,22 @@
 
 Script para automatizar a execução dos testes.
 script para rodar os testes do projeto  de forma automatizada
+
+Projetos testados one-for-all e all-for-one
+
+
 Dependências para utilização:
 Gulp.js
 Sell.js
+
+##
  
-Para instalar as dependências use o comando:
+Para utiliza:
+ 
+Instale as dependências use o comando:
 ```console
 npm i gulp shelljs gulp-watch
 ```
- 
-Para utiliza:
 
 Copie o arquivo gulpfile.js para dentro da pasta do projeto.
 
