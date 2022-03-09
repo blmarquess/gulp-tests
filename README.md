@@ -12,7 +12,7 @@ Sell.js
 
 ##
  
-Para utiliza:
+Para utilizar:
  
 Instale as dependências use o comando:
 ```console
