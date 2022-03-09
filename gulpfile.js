@@ -2,15 +2,20 @@ const shell = require('shelljs');
 const gulp = require('gulp');
 const watch = require('gulp-watch');
 
-const rc = 'MYSQL_USER=root MYSQL_PASSWORD=123456 HOSTNAME=localhost PORT=3306 npm test >> log.txt';
+const user = 'root';
+const psw = '123456';
+const host = 'localhost';
+const port = '3306';
+
+const comander = `MYSQL_USER=${user} MYSQL_PASSWORD=${psw} HOSTNAME=${host} PORT=${port} npm test`;
 
 function runTestes() {
-  console.log('Rodando testes...');
-  return shell.exec(rc);
+  return shell.exec(comander);
 }
 
-function monitor() {
-  return watch('./*.sql', runTestes);
+function monitor(cb) {
+  watch('./*.sql', runTestes);
+  cb();
 }
 
 exports.watch = monitor;
