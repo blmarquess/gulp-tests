@@ -10,9 +10,9 @@ Selljs
 ```console
 npm i gulp shelljs gulp-watch
 ```
-Para dorar utiliza o comando:
+Para utiliza:
 
-Atualize os arquivo com as credencias do banco de dados
+Atualize os arquivo 'gulpfile.js' com as credencias do banco de dados
 
 ```console
 npx gulp
