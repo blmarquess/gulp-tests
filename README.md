@@ -12,9 +12,9 @@ Sell.js
 
 ##
  
-Para utiliza:
+Para utilizar:
  
-Instale as dependências use o comando:
+Instale as dependências e use o comando:
 ```console
 npm i gulp shelljs gulp-watch
 ```
