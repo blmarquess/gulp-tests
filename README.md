@@ -7,8 +7,8 @@ Projetos testados one-for-all e all-for-one
 
 
 Dependências para utilização:
-Gulp.js
-Sell.js
+[Gulp.js](https://gulpjs.com) e
+[Sell.js](https://www.npmjs.com/package/shelljs)
 
 ##
  
