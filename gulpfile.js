@@ -13,10 +13,10 @@ function runTestes() {
   return shell.exec(comander);
 }
 
-function monitor(cb) {
-  watch('./*.sql', runTestes);
+function fileScan(cb) {
+  watch('./**/*.sql', runTestes);
   cb();
 }
 
-exports.watch = monitor;
-exports.default = gulp.series(monitor);
+exports.watch = fileScan;
+exports.default = gulp.series(fileScan);
