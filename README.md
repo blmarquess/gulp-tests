@@ -16,7 +16,7 @@ Para utilizar:
  
 Instale as dependências use o comando:
 ```console
-npm i gulp shelljs gulp-watch
+npm i gulp shelljs gulp-watch -D
 ```
 
 Copie o arquivo gulpfile.js para dentro da pasta do projeto.
